@@ -1,0 +1,51 @@
+@font-face {
+    font-family: deftone;
+    src: url(../fonts/DEFTONE.ttf);
+}
+
+@font-face {
+    font-family: barrio;
+    src: url(../fonts/barrio.ttf);
+}
+
+
+@font-face {
+    font-family: daniel;
+    src: url(../fonts/daniel-regular.ttf);
+}
+
+body{
+	width: 1200px;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0;
+	/* font-family: deftone; */
+	font-family: daniel;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 30px;
+	background-color: yellowgreen;
+	color: mediumslateblue;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.pictureContainer{
+	font-family: barrio;
+	font-size: 120px;
+	color: white;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: yellow;
+	margin: 0;
+	padding:0;
+	text-align: center;
+	vertical-align: middle;
+	width: 600px;
+	height: 500px;
+	line-height: 400px;
+	margin-left: 300px;
+	
+}
